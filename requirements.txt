@@ -1,0 +1,37 @@
+# ── Core ──────────────────────────────────────
+httpx>=0.28.1
+aiohttp>=3.12.15
+pydantic>=2.11.7
+pydantic-settings>=2.10.1
+websockets>=15.0.1
+
+# ── Database ───────────────────────────────────
+sqlalchemy>=2.0.43
+aiosqlite>=0.21.0
+
+# ── Data processing ────────────────────────────
+numpy>=2.3.3
+pandas>=2.3.2
+pyarrow>=21.0.0
+
+# ── Machine Learning ───────────────────────────
+scikit-learn>=1.7.2
+xgboost>=3.0.5
+lightgbm>=4.6.0
+joblib>=1.5.2
+
+# ── Telegram ───────────────────────────────────
+python-telegram-bot>=22.3
+
+# ── Utilities ──────────────────────────────────
+python-dotenv>=1.1.1
+loguru>=0.7.3
+pytz>=2025.2
+python-dateutil>=2.9.0.post0
+tenacity>=9.1.2
+cachetools>=6.2.0
+
+# ── Optional ───────────────────────────────────
+# catboost>=1.2.8
+# vectorbt>=0.28.1
+# investpy (deprecated - avoid)
